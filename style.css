@@ -1,0 +1,298 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+/* header */
+#header_area{
+  border-top: 5px solid red;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.socail_area{
+  width: 100%;
+  clear: both;
+}
+
+.socail_area ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.socail_area ul li{
+
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.socail_area ul li a{
+background: #1f1f1f;
+width: 35px;
+height: 35px;
+color: white;
+padding-top: 5px;
+border-radius: 50%;
+display: block;
+text-align: center;
+transition: .4s;
+
+}
+
+
+.socail_area ul li a:hover{
+  background: #ee802f;
+}
+
+/* Search Area Start */
+
+.search_area{
+  text-align: right;
+  width: 100%;
+  clear: both;
+  margin-bottom: 30px;
+}
+
+
+.search_area input{
+  background: #333333;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  border:0 solid;
+
+}
+
+
+.search_area input[type="submit"]{
+  background: #3bafbe;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.search_area input[type="submit"]:hover{
+  background: #ee802f;
+  cursor: pointer;
+}
+
+/* main menu */
+#main_menu{
+  text-align: right;
+}
+
+#main_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#main_menu ul li{
+  display: inline-block;
+}
+
+#main_menu ul li a{
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #999999;
+  padding: 5px 15px;
+  transition: .5s;
+}
+#main_menu ul li a:last-child{
+  padding-right: 0
+}
+#main_menu ul li a:hover{
+  color: #3bafbe;
+}
+
+/* =======================banner==================================== */
+#banner_area{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.item{
+  width: 100%;
+  overflow: hidden;
+}
+#banner_area .item img{
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 30%;
+  height: auto;
+}
+
+
+.banner_text{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.banner_table{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.banner_align{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.banner_text_area{
+  width: 1170px;
+  margin: 0 auto;
+}
+.main_banner{
+  width: 50%;
+  float: right;
+}
+.readmore{
+  text-decoration: none;
+  background: #3bafbe;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.readmore:hover{
+  text-decoration: none;
+  background: #333333;
+  color: #fff;
+}
+.bx-wrapper .bx-controls-direction a {
+
+	display: none;
+}
+
+.bx-wrapper .bx-pager {
+	text-align: right;
+
+}
+
+#intro{
+  padding: 10px;
+}
+#intro img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+
+/* ==================service */
+
+#service{
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#service h4{
+  margin:40px 10px;
+  padding: 20px;
+  color: #999;
+  font-style: italic;
+  font-weight: normal;
+}
+.column_item{
+  padding: 10px;
+}
+.column_item img{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.column_item p{
+  text-align: justify;
+}
+
+
+/* ==================footer=============== */
+
+#footer_section{
+  background: #252525;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer_item ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer_item ul li{
+display: block;
+margin-bottom: 5px;
+border-bottom: 1px solid gray;
+}
+
+.footer_item ul li a{
+  display: block;
+  padding: 5px;
+}
+
+/* ================footer form=========== */
+.footer_form{
+  text-align: right;
+  width: 100%;
+  clear: both;
+  margin-bottom: 30px;
+}
+
+
+.footer_form input{
+  background: #333333;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  border:0 solid;
+  margin-bottom: 10px;
+  width: 100%;
+
+}
+
+
+.footer_form input[type="submit"]{
+  background: #3bafbe;
+  cursor: pointer;
+  transition: .5s;
+  width: 100%;
+}
+
+.footer_form input[type="submit"]:hover{
+  background: #ee802f;
+  cursor: pointer;
+}
+
+
+
+/* ====================copyright======================== */
+
+#copyright{
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+#copyright p{
+  padding: 20px;
+}
+.copy-left{
+  text-align: left;
+}
+.copy-right{
+  text-align: right;
+}
